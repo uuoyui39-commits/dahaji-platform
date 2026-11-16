@@ -4,6 +4,9 @@ primary_region = "fra"
 [build]
   image = "telegrammessenger/proxy:latest"
 
+[env]
+  SECRET = "00112233445566778899aabbccddeeff"
+
 [http_service]
   internal_port = 443
   force_https = true
